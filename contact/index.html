@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="fr-CA">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#234237" />
+    <meta name="color-scheme" content="light" />
+    <title>Demander une soumission — Conformité Capitale</title>
+    <meta
+      name="description"
+      content="Demandez une soumission à Conformité Capitale. Écrivez à Lucas Hamel : lucas@conformitecapitale.com ou le +1 367 330-0243."
+    />
+    <link rel="canonical" href="https://conformitecapitale.com/contact/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fr_CA" />
+    <meta property="og:site_name" content="Conformité Capitale" />
+    <meta property="og:title" content="Demander une soumission — Conformité Capitale" />
+    <meta
+      property="og:description"
+      content="Décrivez votre entreprise. La réponse vient de Lucas Hamel, sans engagement."
+    />
+    <meta property="og:url" content="https://conformitecapitale.com/contact/" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  </head>
+  <body data-page="contact">
+    <!-- partial:header -->
+    <main id="contenu">
+      <header class="page-hero container">
+        <p class="kicker">Contact</p>
+        <h1>Demander une soumission.</h1>
+        <p class="lead">
+          Décrivez votre entreprise en quelques lignes. Lucas vous répond à partir de
+          <a href="mailto:lucas@conformitecapitale.com">lucas@conformitecapitale.com</a>.
+          La soumission n’engage à rien.
+        </p>
+      </header>
+
+      <section class="page-section" aria-labelledby="ecrire">
+        <div class="container contact-layout">
+          <div class="form-card">
+            <h2 id="ecrire" class="sr-only">Formulaire</h2>
+            <p class="form-note">Les champs marqués d’une étoile sont obligatoires.</p>
+            <noscript>
+              <p class="noscript-note">
+                Sans JavaScript, écrivez directement à
+                <a href="mailto:lucas@conformitecapitale.com?subject=Soumission%20site%20web">lucas@conformitecapitale.com</a>.
+              </p>
+            </noscript>
+            <form
+              id="soumission"
+              action="mailto:lucas@conformitecapitale.com"
+              method="post"
+              enctype="text/plain"
+            >
+              <div class="form-grid">
+                <div>
+                  <label for="nom">Nom <span class="req" aria-hidden="true">*</span></label>
+                  <input id="nom" name="nom" type="text" autocomplete="name" required minlength="2" maxlength="80" />
+                </div>
+                <div>
+                  <label for="entreprise">Entreprise</label>
+                  <input
+                    id="entreprise"
+                    name="entreprise"
+                    type="text"
+                    autocomplete="organization"
+                    maxlength="120"
+                  />
+                </div>
+                <div>
+                  <label for="courriel">Courriel <span class="req" aria-hidden="true">*</span></label>
+                  <input
+                    id="courriel"
+                    name="courriel"
+                    type="email"
+                    autocomplete="email"
+                    required
+                    maxlength="120"
+                    spellcheck="false"
+                  />
+                </div>
+                <div>
+                  <label for="telephone">Téléphone</label>
+                  <input id="telephone" name="telephone" type="tel" autocomplete="tel" maxlength="40" />
+                </div>
+                <div class="wide">
+                  <label for="situation">Votre situation <span class="req" aria-hidden="true">*</span></label>
+                  <select id="situation" name="situation" required>
+                    <option value="">Choisir</option>
+                    <option value="Pas de site pour le moment">Je n’ai pas de site</option>
+                    <option value="Site à revoir">Mon site est dépassé</option>
+                    <option value="Entretien mensuel">Je veux l’entretien</option>
+                    <option value="Autre">Autre</option>
+                  </select>
+                </div>
+                <div class="wide">
+                  <label for="message">Message <span class="req" aria-hidden="true">*</span></label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    required
+                    minlength="12"
+                    maxlength="2000"
+                    placeholder="Ce que vous faites, pour qui, et ce que le site devrait permettre."
+                  ></textarea>
+                </div>
+              </div>
+              <p class="form-actions">
+                <button class="btn btn-block" type="submit">Envoyer par courriel</button>
+              </p>
+              <p class="fine">
+                Le formulaire ouvre votre logiciel de courriel avec le message déjà rédigé. Rien n’est
+                enregistré sur ce site.
+              </p>
+              <p id="form-status" class="form-status" role="status" hidden></p>
+            </form>
+          </div>
+
+          <aside class="contact-aside">
+            <h2>Coordonnées</h2>
+            <p>
+              <span class="kicker">Courriel</span>
+              <a href="mailto:lucas@conformitecapitale.com?subject=Soumission%20site%20web">lucas@conformitecapitale.com</a>
+            </p>
+            <p>
+              <span class="kicker">Téléphone</span>
+              <a href="tel:+13673300243">+1 367 330-0243</a><br />
+              Si l’appel reste sans réponse, un message ou un courriel suffit.
+            </p>
+            <p>
+              <span class="kicker">Lieu</span>
+              Québec, Canada<br />
+              Le travail se fait à distance.
+            </p>
+          </aside>
+        </div>
+      </section>
+    </main>
+    <!-- partial:footer -->
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
