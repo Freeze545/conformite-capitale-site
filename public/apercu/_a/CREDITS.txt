@@ -1,0 +1,14 @@
+Photos — Unsplash License (https://unsplash.com/license), libres d'usage commercial, attribution non requise.
+Fichiers optimisés (WebP) et auto-hébergés ; aucune requête vers un service externe.
+plomberie       https://images.unsplash.com/photo-1676210134188-4c05dd172f89
+toiture         https://unsplash.com/photos/bquoYvs3KtQ  (Sergej Karpow)
+electricien     https://unsplash.com/photos/maXnRLszYY0  (Troy Bridges)
+electricien-alt https://unsplash.com/photos/47jO5Y8nsYo  (mostafa mahmoudi)
+renovation      https://unsplash.com/photos/KiKGnfWrzCo  (Brett Jordan)
+paysagement     https://unsplash.com/photos/h7WoN6ATv2U  (Antonio Groß)
+deneigement     https://unsplash.com/photos/X5_RXio0yD0  (Nellie Adamyan)
+restaurant      https://images.unsplash.com/photo-1777502286570-2725dff09ce5 (Martin Baron)
+coiffure        https://images.unsplash.com/photo-1641252064345-235d409679eb (Sean Boyd)
+massotherapie   https://unsplash.com/photos/7yeqemd-p90  (Jakub Klucký)
+garage          https://images.unsplash.com/photo-1708745427274-d5de5122fd57 (Dan Crile)
+Polices : Fraunces, Manrope, Oswald — SIL Open Font License (via Fontsource).
