@@ -12,3 +12,4 @@ coiffure        https://images.unsplash.com/photo-1641252064345-235d409679eb (Se
 massotherapie   https://unsplash.com/photos/7yeqemd-p90  (Jakub Klucký)
 garage          https://images.unsplash.com/photo-1708745427274-d5de5122fd57 (Dan Crile)
 Polices : Fraunces, Manrope, Oswald — SIL Open Font License (via Fontsource).
+toilettage      https://images.unsplash.com/photo-1672426638077-8f6ebba39fd8 (Ottr Dan)
