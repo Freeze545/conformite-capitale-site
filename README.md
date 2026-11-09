@@ -26,7 +26,7 @@ npm run preview
 
 | Adresse | Contenu |
 | --- | --- |
-| `/` | Accueil, offre, déroulement, témoignages (provisoires), questions |
+| `/` | Accueil, offre, déroulement, questions |
 | `/services/` | Périmètre du forfait et de l’entretien |
 | `/a-propos/` | Lucas Hamel |
 | `/contact/` | Demande de soumission |
@@ -34,7 +34,7 @@ npm run preview
 ## Textes à tenir à jour
 
 - Les prix `995` et `49` sont écrits dans les pages HTML et dans le pied de page (`src/partials/footer.html`).
-- Les témoignages de l’accueil sont des emplacements vides. Remplacer les trois cartes de la section `#temoignages`, ou retirer la section, avant de les présenter comme de vrais avis.
+- Section témoignages retirée de l’accueil (placeholders). Réintroduire seulement avec de vrais avis clients.
 - Le périmètre (une ronde de corrections, un envoi de modifications par mois) est un texte de départ. L’ajuster dans `index.html` et `services/index.html` s’il ne correspond plus à l’offre. Le forfait n’annonce pas un nombre de pages.
 
 ## Déployer sur Render
